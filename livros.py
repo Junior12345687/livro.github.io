@@ -2,7 +2,7 @@ class Recomendacao:
     def __init__(self):
         self.livros = []
         self.palavras_positivas = {'amo', 'adorei', 'gostei', 'maravilhoso', 'incrivel'}
-        self.palavras_negativas = {'não gostei', 'odiei', 'ruim', 'péssimo'}
+        self.palavras_negativas = {'não gostei', 'odiei', 'ruim', 'péssimo', 'muito ruim'}
 
     def cadastro_de_livro(self, titulo, autor, genero, nota):
         for livro in self.livros:
